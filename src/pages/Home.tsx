@@ -1,10 +1,9 @@
 import { candi, gallery } from "@/constant/ui";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import { useTranslation } from "react-i18next";
 
 export const Home = () => {
 
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     return (
         <>
@@ -208,6 +207,7 @@ export const Home = () => {
             </div>
 
             {/* facility */}
+            
 
             {/* map */}
 
