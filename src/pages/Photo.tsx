@@ -1,4 +1,4 @@
-import { CustomImage, images } from "@/constant/image";
+import { images } from "@/constant/image";
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
@@ -13,7 +13,7 @@ export const Photo = () => {
     const prevIndex = (index + images.length - 1) % images.length;
     const prevImage = images[prevIndex] || currentImage;
 
-    const handleClick = (index: number, item: CustomImage) => setIndex(index);
+    const handleClick = (index: number) => setIndex(index);
     const handleClose = () => setIndex(-1);
     const handleMovePrev = () => setIndex(prevIndex);
     const handleMoveNext = () => setIndex(nextIndex);
