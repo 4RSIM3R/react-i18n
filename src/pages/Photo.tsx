@@ -20,6 +20,7 @@ export const Photo = () => {
 
     return (
         <div className="max-w-7xl mx-auto" >
+            <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Our Gallery</h2>
             <Gallery
                 images={images}
                 onClick={handleClick}
