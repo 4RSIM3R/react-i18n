@@ -4,7 +4,8 @@ export const indonesian = {
         "navigation": {
             "home": "Beranda",
             "facility": "Fasilitas",
-            "gallery": "Galeri"
+            "gallery": "Galeri",
+            "about": "Tentang Kami"
         },
         "facility": {
             "title": "Facility of jolutundo temple",

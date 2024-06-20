@@ -4,7 +4,8 @@ export const english = {
         "navigation": {
             "home": "Home",
             "facility": "Facility",
-            "gallery": "Gallery"
+            "gallery": "Gallery",
+            "about": "About Us"
         },
         "facility": {
             "title": "Facility of jolutundo temple",
