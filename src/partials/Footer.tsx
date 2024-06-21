@@ -97,11 +97,7 @@ export const Footer = () => {
             <div className="mx-auto max-w-7xl pb-8 pt-16 sm:pt-24 lg:pt-32 px-4 sm:px-0">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
-                        <img
-                            className="h-7"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            alt="Company name"
-                        />
+                        <img className="h-7 w-auto" src="https://i.pinimg.com/originals/78/ee/e6/78eee64e81233af7ca4974a552312ae8.png" alt="" />
                         <p className="text-sm leading-6 text-gray-600">
                             Making the world a better place through constructing elegant hierarchies.
                         </p>
