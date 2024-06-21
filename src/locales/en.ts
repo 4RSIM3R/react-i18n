@@ -32,6 +32,24 @@ export const english = {
 and souvenirs. Apart from that, they also sell jerry cans and gallons for those who want to bring water from the temple.
 `
             }
+        },
+        "gallery": {
+            "gempeng": {
+                "title": "Gempeng",
+                "desc": "In the women's bath there is a relief with the writing Gempeng which means sad or a storage place for ashes or tombs which means that the history of Raja Udayana in exile with his mother came here in a sad state."
+            },
+            "saka": {
+                "title": "899 SAKA",
+                "desc": ": The one next to the men's bath is written in relief of the temple construction number 899 Saka / 977 M which is the year the temple was built. There is another relief under the center shower inscribed with the name Udayana and Margayawati (Raja Udayana mother)"
+            },
+            "cungkup": {
+                "title": "Cungkup",
+                "desc": "This pile of restored remaining stone is called a cungkup. This stone cannot be put back into the temple because it is fragile. This cungkup is a stone symbol of the king's crown."
+            },
+            "statue": {
+                "title": "Statue",
+                "desc": "In this temple complex there is also a room containing statues found outside Jolotundo Temple but still in the Penanggungan Mountain area. The statues there are mostly not intact or with imperfect sculptures so the information has not been researched",
+            }
         }
     }
 };

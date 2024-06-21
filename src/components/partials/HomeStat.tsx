@@ -7,8 +7,8 @@ const stats = [
   
   export default function HomeStat() {
     return (
-      <div className="py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="">
+        <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <p className="text-base font-semibold leading-7">Deploy faster</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A better workflow</h1>
