@@ -130,12 +130,6 @@ export const HomeHistory = () => {
 
             </ul>
 
-            <div className="flex items-center justify-center mt-8" >
-                <button type="button" className="text-white bg-slate-950 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-3">
-                    Download Naskah
-                </button>
-            </div>
-
         </div>
     )
 }
