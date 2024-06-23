@@ -14,7 +14,7 @@ export const HomeHistory = () => {
                     <hr />
                     <div className="timeline-start mr-8 w-full">
                         <div className="h-40 sm:h-80 col-span-12 sm:col-span-3 relative shadow-lg rounded-lg overflow-hidden w-full" >
-                            <img className="absolute inset-0 w-full h-full object-cover" src={candi} alt="Descriptive alt text" />
+                            <img className="absolute inset-0 w-full h-full object-cover" src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/gempeng.jpg" alt="Descriptive alt text" />
 
                             {/* <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -55,7 +55,7 @@ export const HomeHistory = () => {
                     </div>
                     <div className="timeline-end ml-8 w-full">
                         <div className="h-40 sm:h-80 col-span-12 sm:col-span-3 relative shadow-lg rounded-lg overflow-hidden" >
-                            <img className="absolute inset-0 w-full h-full object-cover" src={candi} alt="Descriptive alt text" />
+                            <img className="absolute inset-0 w-full h-full object-cover" src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/saka.jpg" alt="Descriptive alt text" />
 
                             {/* <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -73,7 +73,7 @@ export const HomeHistory = () => {
                     <hr />
                     <div className="timeline-start mr-8 w-full">
                         <div className="h-40 sm:h-80 col-span-12 sm:col-span-3 relative shadow-lg rounded-lg overflow-hidden" >
-                            <img className="absolute inset-0 w-full h-full object-cover" src={candi} alt="Descriptive alt text" />
+                            <img className="absolute inset-0 w-full h-full object-cover" src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/cungkup.jpg" alt="Descriptive alt text" />
 
                             {/* <div className="absolute inset-0 bg-black opacity-50"></div>
 
