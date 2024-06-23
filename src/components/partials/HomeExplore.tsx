@@ -5,7 +5,7 @@ export const HomeExplore = () => {
         <div className="max-w-7xl mx-auto mt-16" >
             <div className="flex flex-row justify-between" >
                 <div className="max-w-2xl space-y-4" >
-                    <p className="text-2xl" >Explore Jolotundo <span className="font-medium" >Cultural Aspects</span></p>
+                    <p className="text-2xl font-semibold" >Explore Jolotundo <span className="font-medium" >Cultural Aspects</span></p>
                     <p className="text-base" >
                         Jolotundo Temple, a relic of Raja Udayana in Penanggungan forest, East Java, serves both religious and tourism purposes.
                         For religious activities, it hosts prayers, meditation, and rituals. Locals also perform the ruwat tradition here with Tumpeng.
