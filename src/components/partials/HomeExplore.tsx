@@ -1,4 +1,4 @@
-import { candi, gallery } from "@/constant/ui"
+import { explore } from "@/constant/ui"
 import { useTranslation } from "react-i18next"
 
 export const HomeExplore = () => {
@@ -19,13 +19,13 @@ export const HomeExplore = () => {
 
             <div className="grid grid-cols-12 gap-4 mt-8" >
                 {
-                    gallery.map(() => (
+                    explore.map((e) => (
                         <div className="h-40 sm:h-80 col-span-12 sm:col-span-3 relative shadow-lg rounded-lg overflow-hidden" >
-                            <img className="absolute inset-0 w-full h-full object-cover" src={candi} alt="Descriptive alt text" />
+                            <img className="absolute inset-0 w-full h-full object-cover" src={e.image} alt="Descriptive alt text" />
                             <div className="absolute inset-0 bg-black opacity-50"></div>
                             <div className="relative p-4 flex flex-col items-end justify-end h-full">
                                 <p className="text-white">
-                                    Here's some text inside the card content with p-8 padding.
+                                    {e.title}
                                 </p>
                             </div>
                         </div>

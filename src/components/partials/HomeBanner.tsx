@@ -1,4 +1,3 @@
-import { candi } from "@/constant/ui"
 import { ChevronDownIcon } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
@@ -9,7 +8,7 @@ export const HomeBanner = () => {
     return (
         <div className="max-w-sm sm:max-w-7xl mx-auto h-screen relative">
 
-            <img src={candi} alt="Jolotundo Background" className="absolute inset-0 w-full h-full object-cover rounded-2xl" />
+            <img src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/landscape.jpg" alt="Jolotundo Background" className="absolute inset-0 w-full h-full object-cover rounded-2xl" />
 
 
             <div className="absolute inset-0 bg-black opacity-60 rounded-2xl"></div>
