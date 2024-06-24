@@ -13,9 +13,3 @@ export const explore: Explore[] = [
     }
 ];
 
-export const gallery = [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ruwatan_Tirta_Candi_Jolotundo_1.jpg/1280px-Ruwatan_Tirta_Candi_Jolotundo_1.jpg",
-    "https://thumb.viva.id/vivajatim/1265x711/2023/11/12/65503793b92ce-wisata-jolotundo-edupark-nganjuk_jatim.jpg",
-    "https://i0.wp.com/tabloidjawatimur.com/wp-content/uploads/2020/01/candi-jolotundo-2.jpg?fit=539%2C539&ssl=1",
-    "https://cdn.wisata.app/diary/ae946e0b-ec7f-4e50-b009-962b79b7e958_xs.jpg"
-];

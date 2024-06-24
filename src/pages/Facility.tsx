@@ -12,8 +12,16 @@ export const Facility = () => {
         "facility.toilet": <IconToiletPaper className="h-4 w-4 mr-2" />,
         "facility.guesthouse": <IconHome className="h-4 w-4 mr-2" />,
         "facility.information": <IconLayoutBoard className="h-4 w-4 mr-2" />,
-        "facility.gazebo": <IconHome2  className="h-4 w-4 mr-2"/>,
+        "facility.gazebo": <IconHome2 className="h-4 w-4 mr-2" />,
         "facility.foodcourt": <IconBowlSpoon className="h-4 w-4 mr-2" />,
+    }
+
+    const images: Record<string, string> = {
+        "facility.toilet": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/toilet.jpg",
+        "facility.guesthouse": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house.jpg",
+        "facility.gazebo": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/gazebo.jpg",
+        "facility.foodcourt": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/foodcourt.jpg",
+        "facility.information": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/information_board.jpg"
     }
 
     return (
@@ -32,9 +40,9 @@ export const Facility = () => {
                     }
                 </div>
                 <div className="col-span-12 sm:col-span-9 space-y-4" >
-                    <div className="max-w-xl space-y-2" >
-                        
-                        <p className="text-xl font-medium" >{t(`${facility}.title`)}</p>
+                    <div className="max-w-xl space-y-4" >
+                        <p className="text-xl font-semibold" >{t(`${facility}.title`)}</p>
+                        <img className="h-64 w-96 object-cover rounded-sm" src={images[facility]} alt="" />
                         <p className="" >{t(`${facility}.desc`)}</p>
                     </div>
                 </div>
