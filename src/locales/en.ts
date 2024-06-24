@@ -1,6 +1,26 @@
 export const english = {
     translation: {
-        "hello": "Hello",
+        "welcome_to": "Welcome To",
+        "home": {
+            "banner": "Jolotundo Temple is a complex of Petirtaan relics of Raja Udayana located in the middle of the Penanggungan forest, Mojokerto, East Java.",
+            "explore": {
+                "title": "Explore Jolotundo Cultural Aspects",
+                "desc": `Jolotundo Temple, a relic of Raja Udayana in Penanggungan forest, East Java, serves both religious and tourism purposes.
+                        For religious activities, it hosts prayers, meditation, and rituals. Locals also perform the ruwat tradition here with Tumpeng.
+                        As a tourism spot, visitors enjoy bathing in its mineral-rich, drinkable water, believed to have healing properties.`
+            },
+            "stat": {
+                "title": "Relic of Raja Udayana",
+                "desc_1": `Jolotundo Temple currently has 2 functions. The first is a religious function, where the temple is used for ngalap berkah, prayers, meditation, and rituals.
+                Well, on certain days held religious activities such as the night of 1 Suro many tourists come to bathe in order to obtain blessings
+                to welcome the Islamic New Year. Likewise, local residents carry out a tradition to ruwat the source as a form of their gratitude for
+                the clear water source from this temple which they use for their daily lives. This tradition is carried out by
+                bringing Tumpeng (a package of rice with complete side dishes served in large portions) to this temple and then praying together.`,
+                "desc_2": ` The second function of this temple is also a natural tourism object. The most common activity is bathing in the clear water that flows inside the temple.
+                This water is drinkable and has a high mineral and oxygen content.
+                And there are those who believe it can cure all diseases and if bathing here can make younger.`
+            }
+        },
         "navigation": {
             "home": "Home",
             "facility": "Facility",
