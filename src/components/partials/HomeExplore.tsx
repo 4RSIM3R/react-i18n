@@ -6,7 +6,7 @@ export const HomeExplore = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-7xl mx-auto mt-16" >
+        <div className="max-w-sm sm:max-w-7xl mx-4 sm:mx-auto mt-16" >
             <div className="flex flex-row justify-between" >
                 <div className="max-w-4xl space-y-4" >
                     <p className="text-2xl font-semibold" >{t('home.explore.title')}</p>
