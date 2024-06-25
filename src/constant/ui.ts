@@ -12,16 +12,16 @@ export const explore: Explore[] = [
         title: 'Melasti'
     },
     {
-        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
-        title: 'Melasti'
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/pariwisata.jpg',
+        title: 'Pariwisata'
     },
     {
-        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
-        title: 'Melasti'
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/ruwatan.jpg',
+        title: 'Ruawatan'
     },
     {
-        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
-        title: 'Melasti'
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/tari_topeng.jpg',
+        title: 'Tari Topeng'
     }
 ];
 

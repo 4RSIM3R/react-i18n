@@ -1,3 +1,4 @@
+import { candi } from "@/constant/ui";
 import { useTranslation } from "react-i18next"
 
 export const HomeHistory = () => {
@@ -73,7 +74,7 @@ export const HomeHistory = () => {
                     <hr />
                 </li>
 
-                {/* <li className="mx-8" >
+                <li className="mx-8" >
                     <hr />
                     <div className="timeline-start timeline-box rounded-lg p-0 mr-8 w-full">
                         <div className="max-w-md m-4 space-y-4" >
@@ -89,11 +90,11 @@ export const HomeHistory = () => {
                     </div>
                     <div className="timeline-end ml-8 w-full">
                         <div className="h-40 sm:h-80 col-span-12 sm:col-span-3 relative shadow-lg rounded-lg overflow-hidden" >
-                            <img className="absolute inset-0 w-full h-full object-cover" src={candi} alt="Descriptive alt text" />
+                            <img className="absolute inset-0 w-full h-full object-cover" src="https://media-cdn.tripadvisor.com/media/photo-s/08/e7/a3/75/candi-jolotundo.jpg" alt="Descriptive alt text" />
                         </div>
                     </div>
                     <hr />
-                </li> */}
+                </li>
 
             </ul>
 
