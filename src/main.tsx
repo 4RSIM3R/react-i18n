@@ -7,7 +7,8 @@ import { Photo } from '@/pages/Photo';
 import { Facility } from '@/pages/Facility';
 import { Layout } from '@/layouts/Layout';
 import { About } from '@/pages/About';
-import "@/lib/i18n";
+import { I18nextProvider } from 'react-i18next';
+import i18n from '@/lib/i18n';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <I18nextProvider i18n={i18n}>
+      <RouterProvider router={router} />
+    </I18nextProvider>
   </React.StrictMode>,
 )

@@ -54,6 +54,9 @@ and souvenirs. Apart from that, they also sell jerry cans and gallons for those 
             }
         },
         "gallery": {
+            "title": "Gallery",
+            "desc": `Petirtaan Jolotundo is located on the forested northern slopes of Mount Penanggungan in Seloliman Village, Trawas, Mojokerto, East Java. Discovered by Dutch archaeologists around 1885 and opened to the public in 1984, it was restored from 1991 to 1994. Managed by Balai Pelestarian Kebudayaan Jawa Timur, the temple measures 15 by 15.5 meters with a height of 5.8 meters, crafted from finely chiseled andesite stone.
+            Symbolic of Mount Penanggungan and surrounded by eight mountains, Jolotundo features 38 showers with ancient Javanese and Sanskrit symbols.`,
             "gempeng": {
                 "title": "Gempeng",
                 "desc": "In the women's bath there is a relief with the writing Gempeng which means sad or a storage place for ashes or tombs which means that the history of Raja Udayana in exile with his mother came here in a sad state."
@@ -70,6 +73,10 @@ and souvenirs. Apart from that, they also sell jerry cans and gallons for those 
                 "title": "Statue",
                 "desc": "In this temple complex there is also a room containing statues found outside Jolotundo Temple but still in the Penanggungan Mountain area. The statues there are mostly not intact or with imperfect sculptures so the information has not been researched",
             }
+        },
+        "about": {
+            "title": "About Us",
+            "desc": `The access road to the temple can be reached through Trawas by passing the slopes of Mount Penanggungan with winding terrain. Jolotundo Temple is located at an altitude of approximately 800 meters above sea level (masl) on the western slope of Mount Penanggungan.`
         }
     }
 };
