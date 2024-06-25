@@ -10,6 +10,18 @@ export const explore: Explore[] = [
     {
         image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
         title: 'Melasti'
+    },
+    {
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
+        title: 'Melasti'
+    },
+    {
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
+        title: 'Melasti'
+    },
+    {
+        image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/melasti.jpg',
+        title: 'Melasti'
     }
 ];
 
