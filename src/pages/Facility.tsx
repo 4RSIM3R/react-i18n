@@ -26,7 +26,7 @@ export const Facility = () => {
 
     return (
         <div className="max-w-7xl mx-auto my-8 px-4 sm:px-0" >
-            <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('facility.title')}</h2>
+            <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8">{t('facility.title')}</h2>
             <div className="grid grid-cols-12 gap-4 " >
                 <div className="col-span-12 sm:col-span-3 space-y-0 sm:space-y-2 space-x-2 sm:space-x-0 flex flex-row sm:flex-col items-center sm:items-start justify-start overflow-x-scroll sm:overflow-hidden" >
                     {
