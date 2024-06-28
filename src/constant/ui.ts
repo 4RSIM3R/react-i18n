@@ -17,11 +17,13 @@ export const explore: Explore[] = [
     },
     {
         image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/ruwatan.jpg',
-        title: 'Ruawatan'
+        title: 'Ruwatan'
     },
     {
         image: 'https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/tari_topeng.jpg',
         title: 'Tari Topeng'
     }
 ];
+
+export const kemendikbud = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg/800px-Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg.png";
 

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { kemendikbud } from "@/constant/ui"
 import { Dialog, DialogPanel } from "@headlessui/react"
 import { XMarkIcon } from "@heroicons/react/24/solid"
 import { Bars3Icon } from "@heroicons/react/24/solid"
@@ -26,7 +27,7 @@ export const Header = () => {
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Jolotundo</span>
-                        <img className="h-9 w-auto" src="https://i.pinimg.com/originals/78/ee/e6/78eee64e81233af7ca4974a552312ae8.png" alt="" />
+                        <img className="h-9 w-auto" src={kemendikbud} alt="" />
                     </a>
                 </div>
                 <div className="flex lg:hidden">
@@ -70,7 +71,7 @@ export const Header = () => {
                             <span className="sr-only">Jolotundo</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://i.pinimg.com/originals/78/ee/e6/78eee64e81233af7ca4974a552312ae8.png"
+                                src={kemendikbud}
                                 alt=""
                             />
                         </a>

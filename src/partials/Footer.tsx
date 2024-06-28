@@ -1,3 +1,5 @@
+import { kemendikbud } from "@/constant/ui"
+
 const navigation = {
     solutions: [
         { name: 'Marketing', href: '#' },
@@ -97,9 +99,15 @@ export const Footer = () => {
             <div className="mx-auto max-w-7xl pb-8 pt-16 sm:pt-24 lg:pt-32 px-4 sm:px-0">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
-                        <img className="h-7 w-auto" src="https://i.pinimg.com/originals/78/ee/e6/78eee64e81233af7ca4974a552312ae8.png" alt="" />
+                        <img className="h-7 w-auto" src={kemendikbud} alt="" />
                         <p className="text-sm leading-6 text-gray-600">
-                            Making the world a better place through constructing elegant hierarchies.
+                            Balai Pelestarian Kebudayaan Wilayah XI,
+                            Direktorat Jenderal Kebudayaan Republik Indonesia
+
+                            Jalan Majapahit No. 141-143, Trowulan, Mojokerto, Jawa Timur.
+                            Email : bpk.wil11@kemendikbud.go.id,
+                            purbakala.jatim@yahoo.com
+                            Telepon/ Fax : (0321)495515
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
