@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import "yet-another-react-lightbox/styles.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from '@/pages/Home';
 import { Photo } from '@/pages/Photo';

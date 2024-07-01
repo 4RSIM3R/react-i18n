@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { CustomLightbox } from "@/components/ui/custom-lighbox";
 import { IconBowlSpoon, IconHome, IconHome2, IconLayoutBoard, IconToiletPaper } from "@tabler/icons-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { SlideImage } from "yet-another-react-lightbox";
 
 export const Facility = () => {
 
@@ -16,12 +18,42 @@ export const Facility = () => {
         "facility.foodcourt": <IconBowlSpoon className="h-4 w-4 mr-2" />,
     }
 
-    const images: Record<string, string> = {
-        "facility.toilet": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/toilet.jpg",
-        "facility.guesthouse": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house.jpg",
-        "facility.gazebo": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/gazebo.jpg",
-        "facility.foodcourt": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/foodcourt.jpg",
-        "facility.information": "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/information_board.jpg"
+    const images: Record<string, Array<SlideImage>> = {
+        "facility.toilet": [
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/toilet.jpg",
+                height: 256,
+                width: 384,
+            }
+        ],
+        "facility.guesthouse": [
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house.jpg",
+                height: 256,
+                width: 384,
+            }
+        ],
+        "facility.gazebo": [
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/gazebo.jpg",
+                height: 256,
+                width: 384,
+            }
+        ],
+        "facility.foodcourt": [
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/foodcourt.jpg",
+                height: 256,
+                width: 384,
+            },
+        ],
+        "facility.information": [
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/information_board.jpg",
+                height: 256,
+                width: 384,
+            },
+        ]
     }
 
     return (
@@ -41,7 +73,11 @@ export const Facility = () => {
                 <div className="col-span-12 sm:col-span-9 space-y-4" >
                     <div className="max-w-xl space-y-4" >
                         <p className="text-xl font-semibold" >{t(`${facility}.title`)}</p>
-                        <img className="h-64 w-96 object-cover rounded-sm" src={images[facility]} alt="" />
+                        {/* <img className="h-64 w-96 object-cover rounded-sm" src={images[facility]} alt="" /> */}
+                        <div className="max-h-64 max-w-96 object-cover rounded-sm" >
+                            
+                        </div>
+                        <CustomLightbox images={images[facility]} />
                         <p className="" >{t(`${facility}.desc`)}</p>
                     </div>
                 </div>

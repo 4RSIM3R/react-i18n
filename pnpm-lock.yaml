@@ -74,6 +74,9 @@ dependencies:
   vite-tsconfig-paths:
     specifier: ^4.3.2
     version: 4.3.2(typescript@5.4.5)(vite@5.3.0)
+  yet-another-react-lightbox:
+    specifier: ^3.20.2
+    version: 3.20.2(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@types/react':
@@ -3345,6 +3348,17 @@ packages:
     resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
     engines: {node: '>= 14'}
     hasBin: true
+
+  /yet-another-react-lightbox@3.20.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-jH7w7QSSTQG47n22MR0vYtzekkbzyY2X73dN6dkmDK20SDaTCP/TCLXI8kDdyBFvLshWUAysgYZ5rCi6Ytz10Q==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
 
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
