@@ -36,7 +36,7 @@ export const indonesian = {
             },
             "guesthouse": {
                 "title": "Rumah Tamu",
-                "desc": "Di kompleks ini juga terdapat rumah tamu yang khusus diperuntukkan bagi tamu dari instansi terkait yang sedang berkunjung."
+                "desc": "Di kompleks ini juga terdapat rumah tamu yang khusus diperuntukkan bagi tamu dari instansi terkait yang sedang berkunjung. Terdapat 3 kamar di guest house ini. Di Sampingnya ada area kosong yang biasanya dipakai sebagai tempat beristirahat orang yang berkunjung."
             },
             "information": {
                 "title": "Papan Informasi",
@@ -44,7 +44,7 @@ export const indonesian = {
             },
             "gazebo": {
                 "title": "Gazebo",
-                "desc": "Terdapat gazebo beratap yang bisa digunakan untuk duduk atau beristirahat. Gazebo ini terletak di sekitar kompleks candi.",
+                "desc": "Terdapat gazebo beratap yang bisa digunakan untuk duduk atau beristirahat. Gazebo ini terletak di sekitar kompleks candi. Jumlah gazebo terbilang banyak sehingga dapat memuat pengunjung yang ingin beristirahat di area candi.",
             },
             "foodcourt": {
                 "title": "Foodcourt",
@@ -54,7 +54,7 @@ dan suvenir. Selain itu, mereka juga menjual jerigen dan galon bagi yang ingin m
         },
         "gallery": {
             "title": "Galeri",
-            "desc": `Petirtaan Jolotundo terletak di lereng utara Gunung Penanggungan yang berhutan di Desa Seloliman, Trawas, Mojokerto, Jawa Timur. Ditemukan oleh arkeolog Belanda sekitar tahun 1885 dan dibuka untuk umum pada tahun 1984, candi ini dipugar dari tahun 1991 hingga 1994. Dikelola oleh Balai Pelestarian Kebudayaan Jawa Timur, candi ini memiliki ukuran 15 x 15,5 meter dengan tinggi 5,8 meter, terbuat dari batu andesit yang dipahat dengan halus.
+            "desc": `Petirtaan Jolotundo, yang terletak di Gunung Penanggungan di Jawa Timur, adalah candi yang dipugar dengan indah dan ditemukan pada tahun 1885 serta dibuka untuk umum pada tahun 1984. Jelajahi struktur batu andesitnya yang diukir dengan halus, yang dikelola oleh Balai Pelestarian Kebudayaan Jawa Timur.
             Melambangkan Gunung Penanggungan dan dikelilingi oleh delapan gunung, Jolotundo memiliki 38 pancuran dengan simbol-simbol Jawa kuno dan Sanskerta.`,
             "gempeng": {
                 "title": "Gempeng",

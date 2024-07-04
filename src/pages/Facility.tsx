@@ -24,11 +24,21 @@ export const Facility = () => {
                 src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/toilet.jpg",
                 height: 256,
                 width: 384,
+            },
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/toilet_1.jpeg",
+                height: 256,
+                width: 384,
             }
         ],
         "facility.guesthouse": [
             {
                 src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house.jpg",
+                height: 256,
+                width: 384,
+            },
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house_1.jpeg",
                 height: 256,
                 width: 384,
             }
@@ -43,6 +53,11 @@ export const Facility = () => {
         "facility.foodcourt": [
             {
                 src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/foodcourt.jpg",
+                height: 256,
+                width: 384,
+            },
+            {
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/foodcourt_1.jpg",
                 height: 256,
                 width: 384,
             },

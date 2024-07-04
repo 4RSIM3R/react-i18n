@@ -36,7 +36,7 @@ export const english = {
             },
             "guesthouse": {
                 "title": "Guest House",
-                "desc": "In this complex there is also a guesthouse which is specifically intended for guests from related agencies who are on a visit."
+                "desc": "In this complex there is also a guesthouse which is specifically intended for guests from related agencies who are on a visit. There are 3 rooms in this guest house. Beside it there is an empty area which is usually used as a resting place for visiting people"
             },
             "information": {
                 "title": "Information Board",
@@ -44,7 +44,7 @@ export const english = {
             },
             "gazebo": {
                 "title": "Gazebo",
-                "desc": "There is a roofed gazebo that can be used for sitting or resting. This gazebo is located around the temple complex.",
+                "desc": "There is a roofed gazebo that can be used for sitting or resting. This gazebo is located around the temple complex. There are quite a lot of gazebos so they can accommodate visitors who want to rest in the temple area.",
             },
             "foodcourt": {
                 "title": "Foodcourt",
@@ -55,7 +55,7 @@ and souvenirs. Apart from that, they also sell jerry cans and gallons for those 
         },
         "gallery": {
             "title": "Gallery",
-            "desc": `Petirtaan Jolotundo is located on the forested northern slopes of Mount Penanggungan in Seloliman Village, Trawas, Mojokerto, East Java. Discovered by Dutch archaeologists around 1885 and opened to the public in 1984, it was restored from 1991 to 1994. Managed by Balai Pelestarian Kebudayaan Jawa Timur, the temple measures 15 by 15.5 meters with a height of 5.8 meters, crafted from finely chiseled andesite stone.
+            "desc": `Petirtaan Jolotundo, nestled on Mount Penanggungan in East Java, is a beautifully restored temple discovered in 1885 and opened to the public in 1984. Explore its finely chiseled andesite stone structure, managed by Balai Pelestarian Kebudayaan Jawa Timur.
             Symbolic of Mount Penanggungan and surrounded by eight mountains, Jolotundo features 38 showers with ancient Javanese and Sanskrit symbols.`,
             "gempeng": {
                 "title": "Gempeng",
