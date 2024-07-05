@@ -38,7 +38,7 @@ export const Facility = () => {
                 width: 384,
             },
             {
-                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guest_house_1.jpeg",
+                src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/guesthouse_1.jpeg",
                 height: 256,
                 width: 384,
             }

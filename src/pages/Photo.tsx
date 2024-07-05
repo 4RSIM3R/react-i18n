@@ -63,7 +63,7 @@ export const Photo = () => {
             {/* historry */}
             <div className="max-w-sm sm:max-w-7xl mx-4 sm:mx-auto mt-16" >
                 <Lightbox
-
+                    className="w-full"
                     index={index}
                     slides={slides}
                     plugins={[Inline]}
@@ -79,14 +79,14 @@ export const Photo = () => {
                     inline={{
                         style: {
                             width: "100%",
-                            aspectRatio: "16 / 9",
+                            aspectRatio: "9 / 12",
                             maxWidth: "900px",
-                            margin: "0 auto",
+                            margin: "0",
                         },
                     }}
                 />
 
-                <div className="max-w-sm mx-auto space-y-2 text-center mt-8" >
+                <div className="max-w-sm mx-auto space-y-2 text-center my-8" >
                     <p className="text-lg font-semibold" >{t(`gallery.${texts[index]}.title`)}</p>
                     <p className="text-sm sm:text-base" >
                         {t(`gallery.${texts[index]}.desc`)}
