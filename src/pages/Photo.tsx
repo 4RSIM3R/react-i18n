@@ -61,9 +61,8 @@ export const Photo = () => {
                 {t('gallery.desc')}
             </p>
             {/* historry */}
-            <div className="max-w-sm sm:max-w-7xl mx-4 sm:mx-auto mt-16" >
+            <div className="max-w-sm sm:max-w-7xl mx-4 sm:mx-auto mt-16 text-center" >
                 <Lightbox
-                    className="w-full"
                     index={index}
                     slides={slides}
                     plugins={[Inline]}
@@ -77,12 +76,7 @@ export const Photo = () => {
                         imageFit: "cover",
                     }}
                     inline={{
-                        style: {
-                            width: "100%",
-                            aspectRatio: "9 / 12",
-                            maxWidth: "900px",
-                            margin: "0",
-                        },
+                        className: "mx-auto h-96 max-w-2xl"
                     }}
                 />
 
